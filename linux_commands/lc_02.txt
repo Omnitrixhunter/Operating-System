@@ -1,0 +1,52 @@
+3. System Information
+
+top : Display real-time system processes and resource usage
+
+htop : Display system resource usage
+
+df : Show disk space usage
+// df -h (human-readable format)
+
+du : Show disk usage of files and directories
+// du -sh directory_name
+
+free : Show memory usage
+// free -h
+
+uname : Show system information
+// uname -a (displays full system info)
+
+hostname : Show or set the system's hostname
+
+uptime : Show how long the system has been running
+
+dmesg : Print or control the kernel ring buffer (useful for diagnostics)
+
+lscpu : Display information about the CPU architecture
+
+lsusb : List USB devices
+
+lspci : List PCI devices
+
+vmstat : Report virtual memory statistics 
+
+iostat : Display CPU and I/O statistics
+
+lshw : List detailed hardware information
+
+4. File Permissions and Ownership
+
+chmod : Change file permissions
+// Note : Give read, write and execute permissions to owner; read and execute to others
+
+chown : Change file owner and group
+// chown user:group filename
+
+chgrp : Change group ownership of a file 
+
+unmask : Set default file creation permissions
+
+stat : Display file or file system status
+
+ls -l : List files with detailed information including permissions and ownership
+
