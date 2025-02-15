@@ -1,0 +1,56 @@
+5. Process Management
+
+ps : Show running processes
+
+top : Display real-time process activity
+
+htop : Interactive process viewer (more advanced than top)
+
+kill : Kill / terminate a process by PID
+
+killall : Kill / terminate processes by name
+
+bg : Resume a paused job in the background
+
+fg : Bring a background job to the foreground
+
+jobs : List active jobs
+
+nice : Start a process with a modified scheduling priority
+
+renice : Change the priority of running processes
+
+
+6. Networking Commands
+
+ping : Test network connectivity or send ICMP echo requests to network hosts
+
+ifconfig : Show or configure network interfaces (older tool, replaced by ip)
+
+netstat : Display network connections, routing tables, interface statistics
+
+wget : Download files from the web or non-interactive network downloader
+
+ip : Show / manipulate routing, devices, policy routing, and tunnels
+
+ss : Utility to investigate sockets (more modern than netstat)
+
+traceroute : Trace the route packets take to a network host
+
+curl : Transfer data from or to a server
+
+scp : Secure copy files between hosts over SSH
+
+rsync : Remote file and directory synchronization
+
+ftp : File Transfer Protocol client
+
+sftp : Secure FTP over SSH
+
+nc : Netcat, a utility for reading and writing data across network connections
+
+telnet : Telnet client for remote communication (insecure, not recommended)
+
+nslookup : Query internet servers name interactively (DNS records)
+
+

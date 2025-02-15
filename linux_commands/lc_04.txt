@@ -1,0 +1,108 @@
+7. Disk and File System Management
+
+df : Report file system disk space usage
+
+du : Estimate file space usage
+
+mount : Mount file systems
+
+umount : Unmount file systems
+
+fsck : Check and repair file system
+
+fdisk : Partition table manipulator for Linux
+
+parted : Command-line partition editor
+
+blkid : Locate / print block device attributes
+
+lsblk : List information about block devices
+
+tune2fs : Adjust tunable file system parameters
+
+8. User Management 
+
+adduser : Add a new user to the system 
+
+userdel : Delete a user 
+
+usermod : Modify a user account
+
+psswd : Change user password
+
+groupadd : Create a new group
+
+groupdel : Delete a group
+
+chage : Change user password expiry information
+
+whoami : Print the current logged-in username
+
+id : Show user and group IDs
+
+
+9. System Control and Rebooting 
+
+reboot : Reboot the system 
+
+shutdown : Shut down the system
+
+halt : Stop the system immediately
+
+poweroff : Power off the system 
+
+systemct1 : Manage services in modern systemd-based distributions
+
+srevice : Older utility to manage services
+
+
+10. Archiving and Compression
+
+tar : Archive files into a tarball
+
+zip : Compress files into a zip archive 
+
+unzip : Extract files from a zip archive
+
+gzip : Compress files using the gzip algorithm
+
+gunzip : Decompress .gz files
+
+bzip2 : Compress files using the bzip2 algorithm
+
+bunzip2 : Decompress .bz2 files
+
+xz : Compress files using the xz algorithm
+
+unxz : Decompress .xz files
+
+cpio : Copy files to and from archives
+
+dd : Low-level copy and backup tool (can clone entire drives)
+
+11. System Monitoring  and Performance
+
+top : Task manager to monitor system resources
+
+htop : Enhanced version of top
+
+iotop : Monitor I/O usage by processes
+
+nmon : Monitor system performance (CPU, memory, network, etc.).
+
+dstat : Versatile resource statistics collection
+
+
+12. Security Tools
+
+chmod : Change file permissions
+
+chown : Change file ownership
+
+sudo : Execute a command as another user (usually root)
+
+ssh : Secure shell for remote login
+
+iptables : Set up and manage firewall rules
+
+ufw : Uncomplicated Firewall (a frontend for iptables)
